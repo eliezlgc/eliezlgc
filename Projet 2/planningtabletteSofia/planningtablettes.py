@@ -1,6 +1,6 @@
 import csv
 import os as os
-f1=open('/home/eliez_lgc/Documents/NSI/Projet 2/planningtabletteSofia/planningtablettes.csv','r')
+f1=open('C:\Users\PC\OneDrive - Région Île-de-France\Documents\Lycée\NSI\eliezlgc\Projet 2\planningtabletteSofia\planningtablettes.csv','r')
 t1=list(csv.DictReader(f1,delimiter=","))
 print(t1)
 f1.close()
